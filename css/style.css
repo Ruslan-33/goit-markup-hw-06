@@ -1096,6 +1096,7 @@ footer .header-logo {
   margin: 0;
   list-style: none;
 }
+
 .mobile-menu li:not(:last-child) {
   margin-bottom: 20px;
 }
@@ -1111,6 +1112,7 @@ footer .header-logo {
   letter-spacing: 0.045em;
   text-transform: capitalize;
 }
+
 .mobile-menu .link.current {
   color: var(--iris);
 }
@@ -1119,6 +1121,7 @@ footer .header-logo {
 .contacts-wrap .contacts-item:not(:last-child) {
   margin-bottom: 40px;
 }
+
 .contacts-wrap .contacts-item__link {
   color: var(--slate);
   font-size: 20px;
@@ -1127,6 +1130,7 @@ footer .header-logo {
   letter-spacing: 0.025em;
   text-decoration: none;
 }
+
 .contacts-wrap .contacts-item__link--bold {
   color: var(--iris);
   font-size: 36px;
@@ -1135,6 +1139,7 @@ footer .header-logo {
   letter-spacing: 0.045em;
   text-transform: capitalize;
 }
+
 .contacts-wrap .social-list {
   justify-content: flex-start;
   gap: 24px 56px;
