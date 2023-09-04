@@ -16,18 +16,20 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
     <!-- Top line -->
     <header class="header">
       <!-- Favicon -->
       <div class="container header-container">
-        <nav class="nav-link">
+        <nav class="header-nav">
           <a class="link header-logo" href="./index.html"
             >Web<span class="header-logo-dark">Studio</span></a
           >
+
           <!-- PAGES -->
-          <ul class="nav-link list">
+          <ul class="header-nav__list list">
             <li class="pages-list-item">
               <a class="pages-list-item-link link" href="./index.html"
                 >Studio</a
@@ -46,7 +48,7 @@
           </ul>
         </nav>
 
-        <!-- Address -->
+        <!-- Address&Telefone -->
         <address class="header-address">
           <ul class="address-list list">
             <li class="header-address-list list">
@@ -63,6 +65,15 @@
             </li>
           </ul>
         </address>
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="client" width="32" height="22">
+            <use href="./images/icons.svg#burger-btn"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
