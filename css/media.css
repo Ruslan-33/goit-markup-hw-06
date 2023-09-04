@@ -1,0 +1,126 @@
+@media only screen and (min-width: 767.98px) {
+  /* header */
+  .header-nav__list {
+    display: flex;
+  }
+  .header-container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .header-address {
+    display: block;
+  }
+  .header-nav {
+    display: flex;
+    align-items: center;
+  }
+  .address-list {
+    flex-direction: column;
+  }
+  .section-hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    margin: 0 auto 36px;
+  }
+  .advan-list {
+    justify-content: flex-start;
+  }
+  .advan-list-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+  .section-principles-title {
+    text-align: left;
+  }
+  .team-list {
+    gap: 64px 24px;
+  }
+  .customers-list-item {
+    width: calc((100% - 48px) / 3);
+  }
+  .container-footer {
+    text-align: left;
+    flex-direction: row;
+  }
+
+  .footer-form {
+    flex-direction: row;
+  }
+  .footer-form-lable {
+    margin-bottom: 0;
+  }
+  .footer-form-input {
+    width: 264px;
+  }
+  .subscribe-btn {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 767.98px) and (max-width: 1158px) {
+  .team-list,
+  .customers-list {
+    margin: 0 auto;
+    max-width: 552px;
+  }
+  .container-footer {
+    padding-left: 108px;
+    padding-right: 108px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .section {
+    padding: 120px 0;
+  }
+  .address-list {
+    flex-direction: row;
+  }
+  .header-address-list {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .section-hero {
+    padding: 188px 0;
+  }
+  .section-hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    margin: 0 auto 48px;
+  }
+  .rectangle {
+    display: flex;
+  }
+  .advan-list-item {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+  }
+  .section-principles-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
+  .what {
+    display: block;
+  }
+  .customers-list-item {
+    width: calc((100% - 120px) / 6);
+  }
+  .webstudio-footer {
+    margin-right: 96px;
+  }
+  .footer-bottom {
+    margin-left: auto;
+  }
+}
+@media only screen and (min-width: 1158px) and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .section-hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg@2x.jpg);
+  }
+}
